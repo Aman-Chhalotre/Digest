@@ -1,7 +1,10 @@
 .p {
-    position: relative; /* Enable positioning for the pseudo-element */
-    display: inline-block; /* Allow the width to fit the text */
-    overflow: hidden; /* Hide the overflow for the pseudo-element */
+    position: relative;
+    display: inline-block; /* Make each line fit its text */
+    overflow: hidden; /* Hide overflow for the pseudo-element */
+    padding: 0 5px; /* Optional padding */
+    z-index: 1;
+    
 }
 
 .p::after {
