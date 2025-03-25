@@ -1,0 +1,5 @@
+#drawer {
+    background: rgb(7,6,35);
+    background: linear-gradient(90deg, rgba(7,6,35,1) 0%, rgba(0,0,0,1) 100%);
+    /* margin-top: 2.5rem; */
+}
