@@ -1,7 +1,7 @@
 "use client";
-import Login from "@/components/login";
 import axios from "axios";
 import { useState } from "react";
+import Login from "../login/page";
 
 const CreatePost = () => {
   const [isAdmin, setIsAdmin] = useState(true);
